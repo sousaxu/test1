@@ -15,6 +15,11 @@ const routes = [
 				name: "custom",
 				component: () => import("@/views/custom"),
 			},
+				{
+				path: "confict",
+				name: "confict",
+				component: () => import("@/views/conflict"),
+			},
 		],
 	},
 ];
