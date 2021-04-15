@@ -50,7 +50,7 @@ export default {
 			inject: ["context"],
 			render(h, ctx) {
 				let column = ctx.parent.base.prop;
-				console.log(ctx);
+				// console.log(ctx);
 				let scoped = ctx.injections.context.$scopedSlots;
 				let props = ctx.props.scope;
 				let params = {
