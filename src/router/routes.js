@@ -20,6 +20,11 @@ const routes = [
 				name: "confict",
 				component: () => import("@/views/conflict"),
 			},
+			{
+				path: "conflict1",
+				name: "conflict1",
+				component: () => import("@/views/conflict1"),
+			},
 		],
 	},
 ];
