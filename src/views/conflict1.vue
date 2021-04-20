@@ -1,6 +1,6 @@
 <template>
 	<div class="conflict1">
-		this is conflict1
+		this is conflict1232
 	</div>
 </template>
 
